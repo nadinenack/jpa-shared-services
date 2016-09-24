@@ -1,0 +1,45 @@
+<!DOCTYPE dataset [
+        <!ELEMENT dataset (merchant_group)*>
+        <!ELEMENT merchant_group (#PCDATA)>
+        <!ATTLIST merchant_group
+                base_url CDATA #REQUIRED
+                created_date CDATA #IMPLIED
+                hidden CDATA #REQUIRED
+                merchant_group_id CDATA #REQUIRED
+                name CDATA #REQUIRED
+                provider_id CDATA #REQUIRED
+                ss_account_information_id CDATA #REQUIRED
+                type CDATA #REQUIRED
+                usage_type CDATA #REQUIRED>
+        ]>
+<dataset>
+    <merchant_group merchant_group_id="1"
+                    name="PowerReviews"
+                    type="Master"
+                    base_url="http://www.powerreviews.com"
+                    provider_id="10000"
+                    created_date="2007-03-05 19:48:38"
+                    ss_account_information_id="12686"
+                    hidden="false"
+                    usage_type="Test"
+            />
+    <merchant_group merchant_group_id="12846"
+                    name="TestMerchantGroup1"
+                    type="Legacy"
+                    base_url="http://tbd.com"
+                    provider_id="10000"
+                    created_date="2010-04-29 16:50:49"
+                    ss_account_information_id="12358"
+                    hidden="false"
+                    usage_type="Test"
+            />
+    <merchant_group merchant_group_id="12847"
+                    name="TestMerchantGroup2"
+                    type="Legacy"
+                    base_url="http://tbd.com"
+                    provider_id="10000"
+                    ss_account_information_id="12106"
+                    hidden="false"
+                    usage_type="Test"
+            />
+</dataset>

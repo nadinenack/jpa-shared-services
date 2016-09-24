@@ -1,0 +1,35 @@
+<!DOCTYPE dataset [
+        <!ELEMENT dataset (merchant_group_property)*>
+        <!ELEMENT merchant_group_property (#PCDATA)>
+        <!ATTLIST merchant_group_property
+                key CDATA #REQUIRED
+                merchant_group_id CDATA #REQUIRED
+                merchant_group_property_id CDATA #REQUIRED
+                value CDATA #REQUIRED>
+        ]>
+<dataset>
+    <merchant_group_property merchant_group_property_id="205310"
+                           merchant_group_id="12846"
+                           key="SHOW_LEVEL1_PENDING_REVIEW_COUNT_IN_LEVEL2_MODERATION"
+                           value="true"/>
+    <merchant_group_property merchant_group_property_id="16271"
+                           merchant_group_id="1"
+                           key="LOGO_SQUARE_URI"
+                           value="/images_merchants/logos/1_logo_small.gif"/>
+    <merchant_group_property merchant_group_property_id="10245"
+                           merchant_group_id="12846"
+                           key="FTP_USERNAME"
+                           value="kimgordon"/>
+    <merchant_group_property merchant_group_property_id="10246"
+                           merchant_group_id="12847"
+                           key="DONE_TXT_FILENAME"
+                           value="done.txt"/>
+    <merchant_group_property merchant_group_property_id="12048"
+                           merchant_group_id="12846"
+                           key="DONE_TXT_FILENAME"
+                           value="imout.txt"/>
+    <merchant_group_property merchant_group_property_id="12050"
+                           merchant_group_id="12846"
+                           key="DEFAULT_REVIEW_SORT_ORDER"
+                           value="Newest"/>
+</dataset>

@@ -1,0 +1,67 @@
+<!DOCTYPE dataset [
+        <!ELEMENT dataset (merchant)*>
+        <!ELEMENT merchant (#PCDATA)>
+        <!ATTLIST merchant
+                base_url CDATA #REQUIRED
+                created_date CDATA #IMPLIED
+                merchant_group_id CDATA #REQUIRED
+                merchant_id CDATA #REQUIRED
+                name CDATA #REQUIRED
+                site_id CDATA #IMPLIED
+                usage_type CDATA #REQUIRED>
+        ]>
+<dataset>
+    <merchant merchant_id="100"
+              name="Extranet"
+              base_url="http://dashboard.powerreviews.com"
+              merchant_group_id="1"
+              usage_type="Production"
+              />
+    <merchant merchant_id="3254"
+              name="TestMerchant2"
+              base_url="http://tbd"
+              merchant_group_id="12847"
+              site_id="1"
+              usage_type="Production"
+            />
+    <merchant merchant_id="1"
+              name="Buzzillions.com"
+              base_url="http://www.buzzillions.com"
+              merchant_group_id="1"
+              site_id=""
+              created_date="2007-03-05 19:48:38"
+              usage_type="Production"
+            />
+    <merchant merchant_id="9685"
+              name="TestMerchant1"
+              base_url="http://www.squidoo.com"
+              merchant_group_id="12846"
+              site_id="1"
+              created_date="2010-04-29 16:50:49"
+              usage_type="Production"
+            />
+    <merchant merchant_id="374728"
+              name="LDSimply Ink Test"
+              base_url="http://www.simplyink.com"
+              merchant_group_id="12846"
+              site_id="5"
+              created_date="2015-05-01 05:48:12"
+              usage_type="Disabled"
+            />
+    <merchant merchant_id="980947"
+              name="LDProducts Test Copy"
+              base_url="http://ldproducts.com"
+              merchant_group_id="12847"
+              site_id="10"
+              created_date="2015-05-01 06:58:13"
+              usage_type="Production"
+            />
+    <merchant merchant_id="620751"
+              name="Open Sky Test"
+              base_url="http://www.opensky.com"
+              merchant_group_id="12846"
+              site_id=""
+              created_date="2015-06-18 10:30:42"
+              usage_type="Test"
+            />
+</dataset>
