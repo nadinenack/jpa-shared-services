@@ -1,0 +1,9 @@
+com/powerreviews/configuration/Configuration.class
+com/powerreviews/services/MerchantGroupPropertyService.class
+com/powerreviews/entities/Config$OverrideLevel.class
+com/powerreviews/repositories/ConfigRepository.class
+com/powerreviews/Application.class
+com/powerreviews/entities/Config$AccessLevel.class
+com/powerreviews/entities/Config.class
+com/powerreviews/controllers/MerchantGroupPropertyController.class
+com/powerreviews/configuration/IndexController.class
