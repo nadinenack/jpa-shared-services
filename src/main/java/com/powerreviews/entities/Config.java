@@ -30,6 +30,8 @@ public class Config implements Serializable {
     private String description;
     private OverrideLevel overrideLevel;
     private Long visibilityIndex;
+    private boolean allowOverride;
+
 
     public static final String CONFIG_BASE_FOLLOW_LANDING_PAGE_URL = "BASE_FOLLOW_LANDING_PAGE_URL";
     public static final String CONFIG_PUFFERFISH_SUBMIT_URL = "PUFFERFISH_SUBMIT_URL";
@@ -266,6 +268,25 @@ public class Config implements Serializable {
 //    public void setConfigGroup(ConfigGroup configGroup) {
 //        this.configGroup = configGroup;
 //    }
+    private Long configGroupId;
+    @Column(name = "config_group_id")
+    public Long getConfigGroupId() {
+        return configGroupId;
+    }
+
+    public void setConfigGroupId(Long configGroupId) {
+        this.configGroupId = configGroupId;
+    }
+
+    @Column(name = "allow_override")
+    public boolean getAllowOverride() {
+        return allowOverride;
+    }
+
+    public void setAllowOverride(boolean allowOverride) {
+        this.allowOverride = allowOverride;
+    }
+
 
     @Column(name = "description")
     public String getDescription() {

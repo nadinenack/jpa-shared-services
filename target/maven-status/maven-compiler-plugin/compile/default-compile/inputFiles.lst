@@ -1,7 +1,10 @@
-/Users/nadinenack/dev/jpa-shared-services/src/main/java/com/powerreviews/configuration/IndexController.java
+/Users/nadinenack/dev/jpa-shared-services/src/main/java/com/powerreviews/config/WebConfiguration.java
+/Users/nadinenack/dev/jpa-shared-services/src/main/java/com/powerreviews/config/IndexController.java
 /Users/nadinenack/dev/jpa-shared-services/src/main/java/com/powerreviews/Application.java
 /Users/nadinenack/dev/jpa-shared-services/src/main/java/com/powerreviews/controllers/MerchantGroupPropertyController.java
-/Users/nadinenack/dev/jpa-shared-services/src/main/java/com/powerreviews/configuration/Configuration.java
+/Users/nadinenack/dev/jpa-shared-services/src/main/java/com/powerreviews/config/RepositoryConfiguration.java
 /Users/nadinenack/dev/jpa-shared-services/src/main/java/com/powerreviews/services/MerchantGroupPropertyService.java
+/Users/nadinenack/dev/jpa-shared-services/src/main/java/com/powerreviews/config/Configuration.java
 /Users/nadinenack/dev/jpa-shared-services/src/main/java/com/powerreviews/repositories/ConfigRepository.java
+/Users/nadinenack/dev/jpa-shared-services/src/main/java/com/powerreviews/config/ConfigLoader.java
 /Users/nadinenack/dev/jpa-shared-services/src/main/java/com/powerreviews/entities/Config.java
